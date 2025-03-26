@@ -1,0 +1,225 @@
+* {
+    box-sizing: border-box;
+    background-color: bisque;
+}
+body {
+    height: 100%;
+    margin: 0;
+}
+#nav{
+    padding:0 40px;
+    display: block;
+}
+#baner{
+    position: relative;
+    align-items: center;
+}
+#uberNav{ 
+    text-decoration: none;
+}
+#zamowBaner{
+    max-width: 60%;
+    font-size: 52px;
+    font-weight: 600;
+    margin: 0 0 40px;
+}
+.zamow{
+    display: block;
+    padding:0 40px;
+    margin: 0 auto;
+    width: 100%;
+}
+input,select {
+    padding: 0;
+    border: 0;
+    font-family: inherit;
+    background-color: white;
+}
+input[type=text]{
+    width:30%;
+    padding:12px 20px;
+    margin:15px 0;
+    box-sizing: border-box;
+}
+select{
+    width:10%;
+    padding:12px 20px;
+    margin:15px 0;
+    box-sizing: border-box;
+}
+
+input:hover{
+    border-bottom: 2px solid black;
+}
+#wyszukajRest {
+    border-width: 0;
+    cursor: pointer;
+    padding: 0;
+    margin: 0;
+    background-color: black;
+    color: white;
+    height: 35px;
+    width: 150px;
+    border-radius: 15px;
+}
+a{
+    color: black;
+}
+
+#nav button {
+    border-radius: 15px;
+    padding: 4px;
+    font-size: 15px;
+}
+
+#navButton1 {
+    background-color: white;
+    border: 2px solid white;
+    cursor: pointer;
+    padding:12px;
+    margin: 0 16px 0 0;
+}
+#navButton2,#navButton1 {
+    float: right;
+    margin:0 0 0 24px;
+    flex-grow: 0;
+    justify-content: flex-end;
+    font-size: 14px;
+}
+#navButton2 {
+    background-color: black;
+    color: white;
+    border: 2px solid black;
+    cursor: pointer;
+    padding:14px;
+}
+#threeLines {
+    border: none;
+    margin: 10px;
+}
+#threeLines:hover {
+    background-color: white;
+    border-radius: 20px solid white;
+}
+.zdjecia{
+    width: 100%;
+    flex-wrap: nowrap;
+   
+}
+.utworz,
+.dodaj,
+.rejestracja {
+    float: left;
+    margin: 40px;
+    display: block;
+}
+.utworz{
+    margin-left: 0;
+    padding-right: 12px;
+    
+}
+.space-between{
+    height: 200px;
+}
+.baner-miasta, .baner-kraje{
+   align-items: flex-end;
+   justify-content: space-between;
+    display: block;
+    padding:0 40px;
+    margin: 0 auto;
+    width: 100%;
+}
+h2{
+    margin:0;
+    font-size: 36px;
+    line-height: 44px;
+}
+.baner-miasta a{
+    line-height: 20px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 500;
+    float: right;
+}
+main {
+align-items: center;
+    clear: both;
+    width: 100%;
+}
+.baner-kraje a{
+    line-height: 20px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 500;
+    float: right;
+}
+ul a {
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
+.miasta {
+    padding: 10px;
+    text-align: left;
+    display: grid; 
+    grid-template-columns: 1fr 1fr 1fr 1fr; 
+  grid-template-rows: 1fr ; 
+ justify-content: center;
+ justify-items: center;
+
+}
+.miasta ul{
+    list-style: none;
+    line-height: 24px;
+    gap:24px;
+    width: 100%;
+}
+.krajeUl{
+ display: grid;  
+ grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+ grid-template-rows: 1fr 1fr;
+ margin-top:24px;
+}
+.krajeUl ul{
+    line-height: 24px;
+    list-style: none;
+    gap: 24px;
+    height: 100px;
+}
+.uberEatsUl{
+padding: 5px;
+list-style: none;
+text-align: left;
+display: grid; 
+grid-template-columns: 1fr; 
+grid-template-rows: 1fr 1fr; 
+gap:24px;
+}
+/*
+.uberEatsUl{
+    display: flex;
+    flex:1;
+    float: right;
+    margin-right: 20px;
+}*/
+li {
+    cursor: pointer;
+}
+
+h2,p, .footer-end {
+    clear: both;
+}
+#uberTechnologies{
+    float: right;
+    margin-right: 10px;
+}
+#politykaPrywatnosci{
+    float: left;
+    margin-left: 20px;
+}
+footer{
+   
+    padding:72px 0 88px;
+    margin: 80px 0px 0px;
+}
