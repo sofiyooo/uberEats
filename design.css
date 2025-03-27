@@ -1,5 +1,46 @@
+/*baner design*/
 #logopng{
-    width: 90px;
-    height: 60px;
-    display: block;
+    width: 110px;
+    height: 70px;
 }
+#nav{
+    padding:0 40px;
+    display: block;
+    position: fixed;
+    top: 0;
+    width: 100%; 
+}
+#baner{
+    position: relative;
+    align-items: center;
+   padding-left: 40px;
+    padding-right: 40px;
+
+}
+#navButton1 {
+    background-color: white;
+    border: 2px solid white;
+}
+#navButton2,#navButton1 {
+    float: right;
+    margin:20px 25px 0 10px;
+    flex-grow: 0;
+    cursor: pointer;
+    justify-content: flex-end;
+    font-size: 14px;
+}
+#navButton2 {
+    background-color: black;
+    color: white;
+    border: 2px solid black;
+}
+#threeLines {
+    border: none;
+    float: left;
+    margin-top: 20px;
+}
+#threeLines:hover {
+    background-color: white;
+    border-radius: 20px solid white;
+}
+/*baner design*/
