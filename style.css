@@ -64,23 +64,6 @@ a{
 
 
 
-.zdjecia{
-    width: 100%;
-    flex-wrap: nowrap;
-   
-}
-.utworz,
-.dodaj,
-.rejestracja {
-    float: left;
-    margin: 40px;
-    display: block;
-}
-.utworz{
-    margin-left: 0;
-    padding-right: 12px;
-    
-}
 .space-between{
     height: 200px;
 }
