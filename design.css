@@ -15,7 +15,6 @@
     align-items: center;
    padding-left: 40px;
     padding-right: 40px;
-
 }
 #navButton1 {
     background-color: white;
@@ -44,3 +43,17 @@
     border-radius: 20px solid white;
 }
 /*baner design*/
+/*div zdjecia design*/
+.zdjecia img{
+    height: 330px;
+    width: 590px;
+}
+.utworz,
+.dodaj,
+.rejestracja {
+    float: left;
+    display: block;
+    margin-left: 0;
+    cursor: pointer;
+    padding-right: 24px;
+}
