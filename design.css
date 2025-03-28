@@ -57,3 +57,16 @@
     cursor: pointer;
     padding-right: 24px;
 }
+/*hero design*/
+#baner{
+    background-image: url(baner.jpg);
+    overflow: hidden;
+    width: 100vw;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+}
+/*hero design*/
