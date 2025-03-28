@@ -60,7 +60,9 @@ a{
     font-size: 15px;
 }
 
-
+.space-between-big{
+height: 370px;
+}
 
 .space-between{
     height: 200px;
