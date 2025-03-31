@@ -100,10 +100,17 @@ ul a {
     list-style: none;
     font-size: 20px;
 }
-
-.uberEatsUl ul{
-text-align: left;
-flex: 2;
+/*footer*/
+.uber-eats-footer{
+    max-width: 1280px;
+    padding: 0 40px;
+    margin: 0 auto;
+}
+.footer-start{
+    width: 1200px;
+    height: 224px;
+}
+.uber-eats-ul ul{
 display: grid;
 grid-template-columns: 1fr;
 grid-template-rows: 1fr;
@@ -111,39 +118,20 @@ float: right;
 gap:24px;
 padding: 10px;
 list-style: none;
-margin-top: -120px;
-margin-right: 200px;
+
 }
-.uberEatsLogo a{
+.uber-eats-logo a{
    position: relative;
    left: 400px;
    text-decoration: none;
-   top:-85px;
 }
-.logos a{
-    margin: 10px;
-    width: 40px; /*zmienic kiedy beda zdjecia*/
-    position: relative;
-    bottom: -150px;
-    left: 410px;
-}
-.footerLogos a{
-    margin:10px;
-    width: 60px;
-    position: relative;
-    left: 410px;
-    bottom:-15px;
-}
+
 li {
     cursor: pointer;
 }
 
 h2,p, .footer-end {
     clear: both;
-}
-#uberTechnologies{
-    float: right;
-    margin-right: 10px;
 }
 #politykaPrywatnosci{
     text-align: center;
@@ -162,7 +150,8 @@ h2,p, .footer-end {
     width: 40px;
 }
 footer{
-
+    border-top: 1px solid grey;
     padding:72px 0 88px;
     margin: 80px 0px 0px;
 }
+/*footer*/
