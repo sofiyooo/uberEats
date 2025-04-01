@@ -143,14 +143,18 @@ ul a {
     margin-top: 40px;
 }
 .footerLogos a img { 
-    height: 30px;
-    margin: 0 12px;
+    height: 19px;
+    padding-right: 25px;
     float: left;
 }
 
 .footer-end-opcje {
     display: flex;
     gap: 24px;
+    padding-left: 25px;
+}
+.footer-end-opcje a{
+    text-decoration: none;
 }
 .footer-space {
     width: 16px;
@@ -161,13 +165,19 @@ footer {
     margin-top: 80px;
 }
 #politykaPrywatnosci {
-    margin-top: 16px;
-    font-size: 16px;
-    margin-left: 55px;
+    float: inline-start;
+    gap: 40px;
 }
-
+.footer-end a{
+    text-decoration: none;
+}
+#hr{
+    border: 1px solid rgba(150, 150, 150, 0.089);
+    
+}
+.footer-end a:hover{
+text-decoration: underline;
+}
 #uberTechnologies {
-    font-size: 14px;
-    margin-top: 8px;
-    float: right;
+    float: inline-end;
 }
