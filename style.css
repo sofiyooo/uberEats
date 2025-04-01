@@ -101,57 +101,73 @@ ul a {
     font-size: 20px;
 }
 /*footer*/
-.uber-eats-footer{
+.uber-eats-footer {
     max-width: 1280px;
     padding: 0 40px;
     margin: 0 auto;
 }
-.footer-start{
-    width: 1200px;
+
+.footer-start {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     height: 224px;
+    margin-bottom: 20px;
+}
+
+#logopng {
+    margin-bottom: 240px;
+}
+.logos{
+    position: relative;
+    right: 220px;
+    top: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
 }
 .uber-eats-ul ul{
-display: grid;
-grid-template-columns: 1fr;
-grid-template-rows: 1fr;
-float: right;
-gap:24px;
-padding: 10px;
-list-style: none;
-
-}
-.uber-eats-logo a{
-   position: relative;
-   left: 400px;
-   text-decoration: none;
-}
-
-li {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    float: right;
+    gap:24px;
+    padding: 0;
+    list-style: none;
+    }
+.uber-eats-ul ul li {
     cursor: pointer;
 }
 
-h2,p, .footer-end {
-    clear: both;
+.footer-end {
+    margin-top: 40px;
 }
-#politykaPrywatnosci{
-    text-align: center;
-    margin-left: 40px;
+.footerLogos a img { 
+    height: 30px;
+    margin: 0 12px;
+    float: left;
 }
-.footer-end-opcje{
+
+.footer-end-opcje {
     display: flex;
-    flex-direction: row;
-    flex: 1;
-    text-decoration: none;
-    justify-content: center;
-    justify-items: center;
-    margin-left: 400px;
+    gap: 24px;
 }
-.footer-space{
-    width: 40px;
+.footer-space {
+    width: 16px;
 }
-footer{
+footer {
     border-top: 1px solid grey;
-    padding:72px 0 88px;
-    margin: 80px 0px 0px;
+    padding: 72px 0 88px;
+    margin-top: 80px;
 }
-/*footer*/
+#politykaPrywatnosci {
+    margin-top: 16px;
+    font-size: 16px;
+    margin-left: 55px;
+}
+
+#uberTechnologies {
+    font-size: 14px;
+    margin-top: 8px;
+    float: right;
+}

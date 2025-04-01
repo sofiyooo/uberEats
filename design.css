@@ -112,11 +112,13 @@ select{
 #kraje-p{
     text-align: center;
 }
+
 #apple-logo{
     height: 40px;
     width: 135px;
+    margin-top: 6px;
 }
 #google-logo{
-    height: 55px;
-   
+    height: 50px;
+    float: left;
 }
