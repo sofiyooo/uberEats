@@ -1,85 +1,64 @@
 * {
     box-sizing: border-box;
 }
+
 body {
     height: 100%;
     margin: 0;
 }
 
-a{
+a {
     color: black;
 }
 
-.space-between-big{
-height: 370px;
+.space-between-big {
+    height: 370px;
 }
 
-.space-between{
+.space-between {
     height: 170px;
 }
-.baner-miasta, .baner-kraje{
-    display:block;
-   padding:0 40px;
-    width: 100%;
-}
-h2{
+
+h2 {
     font-size: 36px;
     line-height: 44px;
     margin-bottom: 0;
 }
-.baner-miasta a{
-    display: block;
-    position: relative;
-    bottom: 20px;
-    cursor: pointer;
-    font-size: 16px;
-    float: right;
-}
+
 main {
-align-items: center;
+    align-items: center;
     clear: both;
     width: 100%;
 }
-.baner-kraje a{
-    cursor: pointer;
-    font-size: 16px;
-    font-weight: 500;
-    float: right;
+
+.baner-kraje {
+    display: block;
+    padding: 0 40px;
+    width: 100%;
 }
+
+
+
 ul a {
     text-decoration: none;
     margin: 0;
     padding: 0;
 }
 
-.miasta {
-    padding: 10px;
-    text-align: left;
-    display: grid; 
-    grid-template-columns: 1fr 1fr 1fr 1fr; 
-    grid-template-rows: 1fr ; 
-    justify-content: center;
-    justify-items: center;
-}
-.miasta ul{
-    list-style: none;
-    line-height: 44px;
+.krajeUl {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
     width: 100%;
-    font-size: 20px;
 }
-.krajeUl{
- display: grid;  
- grid-template-columns: 1fr 1fr 1fr 1fr ;
- grid-template-rows: 1fr ;
- width: 100%;
-}
-.krajeUl ul{
+
+.krajeUl ul {
     line-height: 44px;
     list-style: none;
     font-size: 20px;
 }
-footer
-.uber-eats-footer {
+
+footer .uber-eats-footer {
     max-width: 1280px;
     padding: 0 40px;
     margin: 0 auto;
@@ -96,7 +75,8 @@ footer
 #logopng {
     margin-bottom: 240px;
 }
-.logos{
+
+.logos {
     position: relative;
     right: 220px;
     top: 60px;
@@ -104,15 +84,17 @@ footer
     flex-wrap: wrap;
     gap: 16px;
 }
-.uber-eats-ul ul{
+
+.uber-eats-ul ul {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
     float: right;
-    gap:24px;
+    gap: 24px;
     padding: 0;
     list-style: none;
-    }
+}
+
 .uber-eats-ul ul li {
     cursor: pointer;
 }
@@ -120,7 +102,8 @@ footer
 .footer-end {
     margin-top: 40px;
 }
-.footerLogos a img { 
+
+.footerLogos a img {
     height: 19px;
     padding-right: 25px;
     float: left;
@@ -131,31 +114,39 @@ footer
     gap: 24px;
     padding-left: 25px;
 }
-.footer-end-opcje a{
+
+.footer-end-opcje a {
     text-decoration: none;
 }
+
 .footer-space {
     width: 16px;
 }
+
 footer {
     border-top: 1px solid grey;
     padding: 72px 0 88px;
     margin-top: 80px;
 }
+
 #politykaPrywatnosci {
     float: inline-start;
     gap: 40px;
 }
-.footer-end a{
+
+.footer-end a {
     text-decoration: none;
 }
-#hr{
+
+#hr {
     border: 1px solid rgba(150, 150, 150, 0.089);
-    
+
 }
-.footer-end a:hover{
-text-decoration: underline;
+
+.footer-end a:hover {
+    text-decoration: underline;
 }
+
 #uberTechnologies {
     float: inline-end;
 }
