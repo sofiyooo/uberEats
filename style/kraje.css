@@ -1,0 +1,29 @@
+.baner_kraje {
+    padding: 0 40px;
+    width: 100%;
+}
+
+.kraje_ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    width: 100%;
+}
+
+.kraje_ul ul {
+    line-height: 44px;
+    list-style: none;
+    font-size: 20px;
+}
+
+.baner_kraje a {
+    position: relative;
+    bottom: 20px;
+    cursor: pointer;
+    font-size: 16px;
+    float: right;
+}
+
+#kraje_p {
+    text-align: center;
+}
