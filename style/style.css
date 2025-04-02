@@ -31,31 +31,10 @@ main {
     width: 100%;
 }
 
-.baner-kraje {
-    display: block;
-    padding: 0 40px;
-    width: 100%;
-}
-
-
-
 ul a {
     text-decoration: none;
     margin: 0;
     padding: 0;
-}
-
-.krajeUl {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr;
-    width: 100%;
-}
-
-.krajeUl ul {
-    line-height: 44px;
-    list-style: none;
-    font-size: 20px;
 }
 
 footer .uber-eats-footer {
