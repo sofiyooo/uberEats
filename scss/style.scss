@@ -1,0 +1,50 @@
+@import './variables';
+@import './hero';
+@import './logos';
+@import './header';
+@import './main_miasta';
+@import './main_kraje';
+@import './footer';
+* {
+    box-sizing: border-box;
+}
+
+body {
+    height: 100%;
+    margin: 0;
+}
+li{
+    cursor: pointer;
+}
+a {
+    text-decoration: $textDecoration;
+    color: $color;
+}
+
+.space_between_big {
+    height: 370px;
+}
+
+.space_between {
+    height: 170px;
+}
+
+h2 {
+    font-size: fontSize(large);
+    line-height: $lineHeight;
+    margin-bottom: 0;
+}
+
+main {
+    align-items: $alignItems;
+    clear: both;
+    width: 100%;
+}
+
+.footer_space {
+    width: 16px;
+}
+
+#hr {
+    border: 1px solid rgba(150, 150, 150, 0.089);
+}

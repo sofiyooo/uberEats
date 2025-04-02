@@ -1,0 +1,24 @@
+.baner_kraje {
+    @include baner;
+
+    a {
+     @include banerA;
+    }
+}
+
+.kraje_ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    width: 100%;
+
+    ul {
+        line-height: 44px;
+        list-style: none;
+        font-size: fontSize(medium);
+    }
+}
+
+#kraje_p {
+    text-align: center;
+}

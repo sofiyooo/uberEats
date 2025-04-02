@@ -1,0 +1,23 @@
+.baner-miasta {
+    @include baner;
+
+    a {
+        @include banerA;
+    }
+}
+
+.miasta {
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    justify-content: center;
+    justify-items: center;
+
+    ul {
+        list-style: none;
+        line-height: 44px;
+        width: 100%;
+        font-size: fontSize(medium);
+    }
+}
