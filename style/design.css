@@ -1,0 +1,78 @@
+
+#logopng{
+    width: 110px;
+    height: 70px;
+}
+#nav{
+    padding:0 40px;
+    display: block;
+    position: fixed;
+    top: 0;
+    width: 100%; 
+    overflow: scroll;
+    height:80px;
+}
+#navButton1 {
+    background-color: white;
+    border: 2px solid white;
+}
+#navButton2,#navButton1 {
+    float: right;
+    margin:20px 25px 0 10px;
+    flex-grow: 0;
+    cursor: pointer;
+    justify-content: flex-end;
+    font-size: 14px;
+}
+#navButton2 {
+    background-color: black;
+    color: white;
+    border: 2px solid black;
+}
+#threeLines {
+    border: none;
+    float: left;
+    margin-top: 20px;
+}
+#threeLines:hover {
+    background-color: white;
+    border-radius: 20px solid white;
+}
+
+/*div zdjecia design*/
+.zdjecia img{
+    height: 330px;
+    width: 590px;
+}
+.utworz,
+.dodaj,
+.rejestracja {
+    float: left;
+    display: block;
+    margin-left: 0;
+    cursor: pointer;
+    padding-right: 24px;
+}
+
+/*input design
+
+/*input design*/
+/*mapa design*/
+#mapa-png{
+    margin-left: 45px;
+    margin-top: 20px;
+
+} 
+#kraje-p{
+    text-align: center;
+}
+
+#apple-logo{
+    height: 40px;
+    width: 135px;
+    margin-top: 6px;
+}
+#google-logo{
+    height: 50px;
+    float: left;
+}
