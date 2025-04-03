@@ -18,25 +18,13 @@
   font-weight: 600;
   margin: 0 0 40px;
 }
-<<<<<<< HEAD
-=======
-
->>>>>>> bca0b93cae3596a138bb32177962a78da8377bee
 .zamow .form {
   position: relative;
   right: 25px;
 }
-<<<<<<< HEAD
 .zamow .form p {
   margin-left: 30px;
 }
-=======
-
-.zamow .form p {
-  margin-left: 30px;
-}
-
->>>>>>> bca0b93cae3596a138bb32177962a78da8377bee
 .zamow .form #input {
   width: 30px;
   height: 39px;
@@ -44,10 +32,6 @@
   left: 35px;
   top: 15px;
 }
-<<<<<<< HEAD
-=======
-
->>>>>>> bca0b93cae3596a138bb32177962a78da8377bee
 .zamow .form input,
 .zamow .form select {
   border: 0;
@@ -55,28 +39,16 @@
   height: 60px;
   padding: 20px;
 }
-<<<<<<< HEAD
-=======
-
->>>>>>> bca0b93cae3596a138bb32177962a78da8377bee
 .zamow .form input[type=text] {
   width: 30%;
   padding: 12px 20px;
   box-sizing: border-box;
 }
-<<<<<<< HEAD
-=======
-
->>>>>>> bca0b93cae3596a138bb32177962a78da8377bee
 .zamow .form select {
   width: 10%;
   margin: 5px;
   box-sizing: border-box;
 }
-<<<<<<< HEAD
-=======
-
->>>>>>> bca0b93cae3596a138bb32177962a78da8377bee
 .zamow .form #wyszukaj_button {
   cursor: pointer;
   font-size: 19px;
@@ -125,44 +97,24 @@
   width: 100%;
   height: 80px;
 }
-<<<<<<< HEAD
-=======
-
->>>>>>> bca0b93cae3596a138bb32177962a78da8377bee
 #nav #button1 {
   background-color: white;
   border: 2px solid white;
 }
-<<<<<<< HEAD
-=======
-
->>>>>>> bca0b93cae3596a138bb32177962a78da8377bee
 #nav #button2 {
   background-color: black;
   color: white;
   border: 2px solid black;
 }
-<<<<<<< HEAD
-=======
-
->>>>>>> bca0b93cae3596a138bb32177962a78da8377bee
 #nav #three_lines {
   border-radius: 15px;
   border-color: white;
   float: left;
   margin-top: 20px;
 }
-<<<<<<< HEAD
 #nav #three_lines:hover {
   background-color: white;
 }
-=======
-
-#nav #three_lines:hover {
-  background-color: white;
-}
-
->>>>>>> bca0b93cae3596a138bb32177962a78da8377bee
 #nav button {
   border-radius: 15px;
   padding: 4px;
@@ -184,10 +136,6 @@
   padding: 0 40px;
   width: 100%;
 }
-<<<<<<< HEAD
-=======
-
->>>>>>> bca0b93cae3596a138bb32177962a78da8377bee
 .baner-miasta a {
   position: relative;
   bottom: 20px;
@@ -205,10 +153,6 @@
   justify-content: center;
   justify-items: center;
 }
-<<<<<<< HEAD
-=======
-
->>>>>>> bca0b93cae3596a138bb32177962a78da8377bee
 .miasta ul {
   list-style: none;
   line-height: 44px;
@@ -220,10 +164,6 @@
   padding: 0 40px;
   width: 100%;
 }
-<<<<<<< HEAD
-=======
-
->>>>>>> bca0b93cae3596a138bb32177962a78da8377bee
 .baner_kraje a {
   position: relative;
   bottom: 20px;
@@ -239,10 +179,6 @@
   grid-template-rows: 1fr;
   width: 100%;
 }
-<<<<<<< HEAD
-=======
-
->>>>>>> bca0b93cae3596a138bb32177962a78da8377bee
 .kraje_ul ul {
   line-height: 44px;
   list-style: none;
@@ -258,10 +194,6 @@
   padding: 0 40px;
   margin: 0 auto;
 }
-<<<<<<< HEAD
-=======
-
->>>>>>> bca0b93cae3596a138bb32177962a78da8377bee
 .uber_eats_footer .footer_start {
   display: flex;
   justify-content: space-between;
@@ -269,10 +201,6 @@
   height: 224px;
   margin-bottom: 20px;
 }
-<<<<<<< HEAD
-=======
-
->>>>>>> bca0b93cae3596a138bb32177962a78da8377bee
 .uber_eats_footer ul {
   display: grid;
   grid-template-columns: 1fr;
@@ -286,24 +214,12 @@
 .footer_end {
   margin-top: 40px;
 }
-<<<<<<< HEAD
 .footer_end #polityka_prywatnosci {
   float: inline-start;
 }
 .footer_end #uber_technologies {
   float: inline-end;
 }
-=======
-
-.footer_end #polityka_prywatnosci {
-  float: inline-start;
-}
-
-.footer_end #uber_technologies {
-  float: inline-end;
-}
-
->>>>>>> bca0b93cae3596a138bb32177962a78da8377bee
 .footer_end a:hover {
   text-decoration: underline;
 }
@@ -370,10 +286,4 @@ main {
 
 #hr {
   border: 1px solid rgba(150, 150, 150, 0.089);
-<<<<<<< HEAD
 }/*# sourceMappingURL=style.css.map */
-=======
-}
-
-/*# sourceMappingURL=style.css.map */
->>>>>>> bca0b93cae3596a138bb32177962a78da8377bee
