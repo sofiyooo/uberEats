@@ -19,11 +19,12 @@ $fontSize: (
     padding: 0 40px;
     width: 100%;
 }
-@mixin banerA{
+
+@mixin banerA {
     position: $position;
-        bottom: 20px;
-        cursor: pointer;
-        font-size: fontSize(small);
-        float: right;
-        text-decoration: underline;
+    bottom: 20px;
+    cursor: pointer;
+    font-size: fontSize(small);
+    float: right;
+    text-decoration: underline;
 }

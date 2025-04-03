@@ -2,6 +2,7 @@
     max-width: 1280px;
     padding: 0 40px;
     margin: 0 auto;
+
     .footer_start {
         display: flex;
         justify-content: space-between;
@@ -9,7 +10,8 @@
         height: 224px;
         margin-bottom: 20px;
     }
-    ul{
+
+    ul {
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: 1fr;
@@ -19,29 +21,37 @@
         list-style: none;
     }
 }
+
 .footer_end {
     margin-top: 40px;
+
     #polityka_prywatnosci {
         float: inline-start;
     }
+
     #uber_technologies {
         float: inline-end;
     }
+
     a {
-        &:hover{
-            text-decoration: underline;}
+        &:hover {
+            text-decoration: underline;
+        }
     }
 }
+
 .footer_logos a img {
     height: 19px;
     padding-right: 25px;
     float: left;
 }
+
 .footer_end_opcje {
     display: flex;
     gap: 24px;
     padding-left: 25px;
 }
+
 footer {
     border-top: 1px solid grey;
     padding: 72px 0 88px;
