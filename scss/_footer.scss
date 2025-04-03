@@ -2,6 +2,10 @@
     max-width: 1280px;
     padding: 0 40px;
     margin: 0 auto;
+<<<<<<< HEAD
+=======
+
+>>>>>>> bca0b93cae3596a138bb32177962a78da8377bee
     .footer_start {
         display: flex;
         justify-content: space-between;
@@ -9,7 +13,12 @@
         height: 224px;
         margin-bottom: 20px;
     }
+<<<<<<< HEAD
     ul{
+=======
+
+    ul {
+>>>>>>> bca0b93cae3596a138bb32177962a78da8377bee
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: 1fr;
@@ -19,6 +28,7 @@
         list-style: none;
     }
 }
+<<<<<<< HEAD
 .footer_end {
     margin-top: 40px;
     #polityka_prywatnosci {
@@ -32,18 +42,51 @@
             text-decoration: underline;}
     }
 }
+=======
+
+.footer_end {
+    margin-top: 40px;
+
+    #polityka_prywatnosci {
+        float: inline-start;
+    }
+
+    #uber_technologies {
+        float: inline-end;
+    }
+
+    a {
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+}
+
+>>>>>>> bca0b93cae3596a138bb32177962a78da8377bee
 .footer_logos a img {
     height: 19px;
     padding-right: 25px;
     float: left;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> bca0b93cae3596a138bb32177962a78da8377bee
 .footer_end_opcje {
     display: flex;
     gap: 24px;
     padding-left: 25px;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> bca0b93cae3596a138bb32177962a78da8377bee
 footer {
     border-top: 1px solid grey;
     padding: 72px 0 88px;
     margin-top: 80px;
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> bca0b93cae3596a138bb32177962a78da8377bee
