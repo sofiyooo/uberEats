@@ -1,0 +1,33 @@
+
+@import './variables';
+
+#apple_logo {
+    height: 40px;
+    width: 135px;
+    margin-top: 6px;
+}
+
+#google_logo {
+    height: 50px;
+    float: left;
+}
+
+#logo_png {
+    margin-bottom: 240px;
+    width: 110px;
+    height: 70px;
+}
+
+.logos {
+    position: $position;
+    right: 220px;
+    top: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+#mapa-png {
+    margin-left: 45px;
+    margin-top: 20px;
+}

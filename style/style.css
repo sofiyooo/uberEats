@@ -1,72 +1,104 @@
-* {
-    box-sizing: border-box;
-}
-
-body {
-    height: 100%;
-    margin: 0;
-}
-
-a {
-    color: black;
-    text-decoration: none;
-}
-
-.space_between_big {
-    height: 370px;
-}
-
-.space_between {
-    height: 170px;
-}
-
-h2 {
-    font-size: 36px;
-    line-height: 44px;
-    margin-bottom: 0;
-}
-
-main {
-    align-items: center;
-    clear: both;
-    width: 100%;
-}
-
-ul a {
-    text-decoration: none;
-    margin: 0;
-    padding: 0;
-}
-
-
 #apple_logo {
-    height: 40px;
-    width: 135px;
-    margin-top: 6px;
+  height: 40px;
+  width: 135px;
+  margin-top: 6px;
 }
 
 #google_logo {
-    height: 50px;
-    float: left;
+  height: 50px;
+  float: left;
 }
 
 #logo_png {
-    margin-bottom: 240px;
+  margin-bottom: 240px;
+  width: 110px;
+  height: 70px;
 }
 
 .logos {
-    position: relative;
-    right: 220px;
-    top: 60px;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 16px;
+  position: relative;
+  right: 220px;
+  top: 60px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+#nav {
+  padding: 0 40px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 80px;
+}
+#nav #button1 {
+  background-color: white;
+  border: 2px solid white;
+}
+#nav #button2 {
+  background-color: black;
+  color: white;
+  border: 2px solid black;
+}
+#nav #three_lines {
+  border-radius: 15px;
+  border-color: white;
+  float: left;
+  margin-top: 20px;
+}
+#nav #three_lines:hover {
+  background-color: white;
+}
+
+#button2,
+#button1 {
+  float: right;
+  margin: 20px 25px 0 10px;
+  flex-grow: 0;
+  cursor: pointer;
+  justify-content: flex-end;
+  font-size: 14px;
+  border-radius: 15px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  height: 100%;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.space_between_big {
+  height: 370px;
+}
+
+.space_between {
+  height: 170px;
+}
+
+h2 {
+  font-size: 36px;
+  line-height: 44px;
+  margin-bottom: 0;
+}
+
+main {
+  align-items: center;
+  clear: both;
+  width: 100%;
 }
 
 .footer_space {
-    width: 16px;
+  width: 16px;
 }
 
 #hr {
-    border: 1px solid rgba(150, 150, 150, 0.089);
-}
+  border: 1px solid rgba(150, 150, 150, 0.089);
+}/*# sourceMappingURL=style.css.map */
