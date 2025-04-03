@@ -5,10 +5,6 @@
 @import './main_miasta';
 @import './main_kraje';
 @import './footer';
-<<<<<<< HEAD
-=======
-
->>>>>>> bca0b93cae3596a138bb32177962a78da8377bee
 * {
     box-sizing: border-box;
 }
@@ -17,17 +13,9 @@ body {
     height: 100%;
     margin: 0;
 }
-<<<<<<< HEAD
 li{
     cursor: pointer;
 }
-=======
-
-li {
-    cursor: pointer;
-}
-
->>>>>>> bca0b93cae3596a138bb32177962a78da8377bee
 a {
     text-decoration: $textDecoration;
     color: $color;
@@ -59,22 +47,4 @@ main {
 
 #hr {
     border: 1px solid rgba(150, 150, 150, 0.089);
-<<<<<<< HEAD
-=======
-}
-
-.utworz,
-.dodaj,
-.rejestracja {
-    float: left;
-    display: block;
-    margin-left: 0;
-    cursor: pointer;
-    padding-right: 24px;
-}
-
-.zdjecia img {
-    height: 330px;
-    width: 590px;
->>>>>>> bca0b93cae3596a138bb32177962a78da8377bee
 }

@@ -19,15 +19,6 @@ $fontSize: (
     padding: 0 40px;
     width: 100%;
 }
-<<<<<<< HEAD
-@mixin banerA{
-    position: $position;
-        bottom: 20px;
-        cursor: pointer;
-        font-size: fontSize(small);
-        float: right;
-        text-decoration: underline;
-=======
 
 @mixin banerA {
     position: $position;
@@ -36,5 +27,4 @@ $fontSize: (
     font-size: fontSize(small);
     float: right;
     text-decoration: underline;
->>>>>>> bca0b93cae3596a138bb32177962a78da8377bee
 }
