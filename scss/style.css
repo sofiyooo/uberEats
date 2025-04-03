@@ -286,4 +286,19 @@ main {
 
 #hr {
   border: 1px solid rgba(150, 150, 150, 0.089);
+}
+
+.zdjecia img {
+  height: 330px;
+  width: 590px;
+}
+
+.utworz,
+.dodaj,
+.rejestracja {
+  float: left;
+  display: block;
+  margin-left: 0;
+  cursor: pointer;
+  padding-right: 24px;
 }/*# sourceMappingURL=style.css.map */
